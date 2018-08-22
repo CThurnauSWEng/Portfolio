@@ -1,57 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Carrie's Portfolio</title>
+
   </head>
   <body>
-        <div class="collapse navbar-collapse" id="navbar-collapse-main">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="nav-link scroll" href="#about">About</a>
-                </li>
-                <li>
-                    <a href="CarrieThurnauResume.pdf">Resume</a>
-                </li>
-                <li>
-                    <a class="nav-link scroll" href="#contact">Contact Me</a>
-                </li>
-            </ul>
-        </div>
+    <div class="wrapper">
+        <nav class="navbar navbar-fixed-top navbar-bkg" role="navigation">
+          <div class="container-fluid">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">...</button>
+                 <!-- Logo goes here-->
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="Thurnau_Carrie-Gen-Resume.pdf">Resume</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scroll" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
         <div class="jumbotron text-center headbkg">
           <h1>Carrie Thurnau</h1>
-          <img src="CarrieThurnau.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="250" height="250">
-          <h1><small>Full Stack Software Developer</small></h2>
+          <h1 class="mysubtitle"><small>Full Stack Software Developer</small></h1>
         </div>
-        
+
         <div class="container">
+          <h1>About Me</h1>
+          <div class="row" id="about">
+              <div class="col-sm-4 myImage">
+                  <img src="CarrieThurnau.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="250" height="250">
+              </div>
+              <div class="col-sm-4">
+                  <h4><small>My passions include life-long learning, problem solving, and software development.</small></h4>
+                  <h4><small>I am an expert software developer with 24 years of experience in the fields of real-time embedded software development and aviation software development oversight. In 2018, I shifted my focus to web development and have completed an intense full stack web development bootcamp at Coding Dojo in Bellevue, Washington. I am eager to begin applying my new skills to developing web applications to solve problems and deliver awesome functionality to businesses and their customers.</small></h4>
+                  <h4><small>My passion for learning includes foreign languages, fiber art, metacognition, and computer science.</small></h4>
+                </div>
+                <div class="col-sm-4">
+                    <h4><small>Proficiencies:</small></h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>NodeJS</li>
+                        <li>JavaScript</li>
+                        <li>Angular</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container">
+
             <h1>Projects</h1>
+
             <div class="row">
                 <div class="col-sm-4">
                     <h3>Learn Songs</h3>
                     <h4>Learn a language the fun way!</h4>
                     <p>Display song lyrics in multiple languages and sing along.</p>
+                   <p>Developed in Java using Spring Boot framework</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3></h3>
+                    <h4>Developed in Java using Spring Boot framework</h4>
+                    <p>Technical Features:</p>
+                    <ul>
+                        <li>Restful routing</li>
+                        <li>Nested OneToMany relationships</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <p></p>
                     <a href="https://github.com/CThurnauSWEng/LearnSongs.git">
                         <img src="LearnSongs.jpg" class="img-responsive" alt="Domino graphic">
                     </a>
-                    <p>Developed in Java using Spring Boot framework with MySQL.</p>
                 </div>
-                <div class="col-sm-4">
-                    <h3>Column 2</h3>
-                    <p>Lorem ipsum dolor..</p>
-                    <p>Ut enim ad..</p>
+            </div>            
+            <h3></h3>
+            <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Movie Reviews</h3>
+                        <h4>What is your favorite movie?</h4>
+                        <p>fajwieofaerwg</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3></h3>
+                        <h4>Developed MongoDB/Express/Angular/Node framework</h4>
+                        <p>Technical Features:</p>
+                        <ul>
+                            <li>Restful routing</li>
+                            <li>OneToMany relationships</li>
+                        </ul>
+                        </div>
+                    <div class="col-sm-4">
+                        <a href="https://github.com/CThurnauSWEng/MEAN-Movie-Reviews.git">
+                            <img src="moviereviews.png" class="img-responsive" alt="Domino graphic">
+                        </a>
+                    </div>
+            </div>            
+    
+        </div>
+        
+        <div class="container" id="contact">
+            <h1>Contact Me</h1>
+            <form action="https://formspree.io/carthurnau@yahoo.com" method="POST" name="contactForm" novalidate>
+                <div class="row control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
                 </div>
-                <div class="col-sm-4">
-                    <h3>Column 3</h3> 
-                    <p>Lorem ipsum dolor..</p>
-                    <p>Ut enim ad..</p>
+                <div class="row control group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Email Address</label>
+                        <input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div>
+                    <input type="hidden" name="_subject" value="New submission">
+                    <input type="text" name="_gotcha" style="display:none">
+                </div>
+                <div class="row control group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                        <label>Message</label>
+                        <textArea rows="6" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textArea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <br>
+                <div id="success"></div>
+                <div class="row">
+                    <div class="form-group col-xs-12 text-center">
+                        <button type="submit" class="btn btn-success btn-lg">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer class="container-fluid text-center">
+            <div class="row">                
+                <div class="col-sm-4 col-sm-offset-4">
+                    <h3>Connect</h3>
+                    <div class="icondiv">
+                        <a href="https://www.linkedin.com/in/carriethurnau/" class="fa fa-linkedin fa-3x"></a>
+                    </div>
+                    <div class="icondiv">
+                        <a href="https://github.com/CThurnauSWEng" class="fa fa-github fa-3x"></a>
+                    </div>
                 </div>
             </div>
-        </div>
+            <p class="aboutsite">About this site:</p>
+            <p>This site was developed in HTML and CSS utilizing bootstrap styling and font-awesome icons.</p>
+            <p>Many thanks to <a href="http://nicholaspool.com/" class="nicklink">Nick Pool</a> for layout ideas and examples.</p>
+            <p></p>
+        </footer>
+      </div>
     </body>
 </html>

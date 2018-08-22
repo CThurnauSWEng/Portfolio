@@ -3,9 +3,43 @@
 }
 
 .headbkg {
-    background: #4B79A1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, rgb(41, 87, 128), #0A2342);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, rgb(41, 87, 128), #0A2342); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: -olinear-gradient(to top, rgb(41, 87, 128), #0A2342); 
+    background: #051a35;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgb(51, 54, 154), #051a35);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(51, 54, 154), #051a35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -olinear-gradient(to top, rgb(51, 54, 154), #051a35); 
     color: white;
+}
+.myImage {
+    position: relative;
+    top     : 32px;
+    left    : -32px;
+}
+.wrapper {
+    background: rgb(238, 193, 244);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, rgb(99, 104, 236), rgb(251, 251, 251));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, rgb(99, 104, 236), rgb(251, 251, 251)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -olinear-gradient(to top, rgb(99, 104, 236), rgb(251, 251, 251)); 
+}
+.navbar-bkg{
+    background-color: rgb(251, 251, 251);
+}
+.mysubtitle{
+    margin-top     : 0px;
+    margin-bottom  : -25px;
+}
+.icondiv {
+    width           : 50px;
+    height          : auto;
+    padding         : 5px;
+    background-color: white;
+    display         : inline-block;
+    vertical-align  : top;
+    border-radius   : 10px;
+    margin  : 0px 5px 0px 5px;
+}
+.nicklink {
+    color   : black;
+}
+.aboutsite {
+    margin-top: 20px;
 }
