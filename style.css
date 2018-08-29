@@ -1,5 +1,4 @@
 * {
-    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .headbkg {
@@ -11,7 +10,7 @@
 }
 .myImage {
     position: relative;
-    top     : 32px;
+    top     : 0px;
     left    : -32px;
 }
 .wrapper {
